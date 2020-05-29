@@ -1,0 +1,308 @@
+:root{
+    --blue-color: #5E85D1; 
+    --ano-blue: #60ACE3;
+    --white-color: #FFFFFF;
+    --black-color: #292929;
+    --light-gray: #FDFDFD;
+    --light-ash: #F8F8F8;
+    --grey-color: #A0A0A0;
+    --all-black: #222222;
+    --ano-grey: #F0F0F0;
+    --inner-text: #8A8C91;
+    --site: #DDDDDD;
+}
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+.nav-container nav{
+    background: var(--white-color) !important;
+    color: var(--black-color) !important;
+    font-size: 12px ;
+}
+.nav-container nav  a{
+    font-weight: bold;
+    color: var(--black-color) !important;
+}
+/* Large Mockup */
+.large-mockup{
+    background: var(--light-gray);
+    padding-top: 170px;
+    border-bottom: 1px solid var(--site);
+    padding-bottom: 60px;
+}
+.large-mockup .site, .creative .site{
+       margin: auto 220px;  
+       margin-bottom: 50px;    
+}
+.large-mockup img{
+    margin: auto 20px;
+}
+.large-mockup h1{
+    font-size: 30px;
+    line-height: 1.5;
+}
+.large-mockup p{
+    color: var(--grey-color);
+    font-size: 15px;
+}
+.large-mockup .site-info{
+    grid-gap: 10px !important;
+    font-size: 12px ;
+}
+.large-mockup .site-info i,.grid-info i{
+    color: var(--blue-color);
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.large-mockup .site-info i:hover
+,.grid-info i:hover,
+.phone-mockup .phone-mockup-content .icon-box i:hover{
+    transform: translateY(-6px);
+    transition: transform 0.5s ease-in-out;
+}
+.large-mockup .site-info a{
+    color: var(--ano-blue);
+    text-decoration: none;
+}
+.large-mockup .site-info p{
+    margin-top: 10px;
+}
+/* Digital Section */
+.digital{
+    margin-top: 100px;
+    background: var(--light-gray);
+    margin-bottom: 150px;
+}
+.digital p, .grid-info p{
+    color: var(--grey-color);
+    font-size: 12px;
+}
+.digital li a{
+    color: var(--inner-text);
+    font-size: 12px;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bold;
+}
+.digital li a:hover{
+    color: var(--all-black);
+}
+.digital .current{
+    color: var(--all-black);
+}
+ .digital .row {
+    grid-gap: 5px !important;
+
+}
+ .digital .row-portfolio > div:hover{
+    transform: translateY(-20px);
+    transition: transform 0.1s ease-in-out;
+ 
+ }
+ .digital .row-portfolio p{
+    position: absolute;
+    z-index: -1;
+
+}
+.grid-info{
+    margin-bottom: 150px;
+}
+.grid-info h6{
+    font-size: 15px;
+    line-height: 1.5;
+}.grid-info p{
+    font-size: 12px;
+}
+/* Phone Mockup */
+.phone-mockup{
+        background: var(--ano-grey);
+        padding-top: 130px;
+        padding-bottom: 130px;
+}
+.phone-mockup .phone-mockup-content{
+    padding-top: 130px;
+    padding-right: 30px;
+}
+.phone-mockup .phone-mockup-content h1{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.phone-mockup .phone-mockup-content p{
+    font-size: 12px;
+    color: var(--inner-text);
+    padding: 10px;
+}
+.phone-mockup .phone-mockup-content .icon-box i{
+    color: var(--blue-color);
+}
+.phone-mockup .phone-mockup-content .icon-box h6{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.phone-mockup .phone-mockup-content .icon-box p{
+    font-size: 10px;
+}
+/* Creative */
+.creative{
+    padding-top: 100px;
+}
+.creative h1{
+    font-size: 20px;
+}
+.creative p{
+    color: var(--grey-color);
+}
+.creative .row > div{
+    margin-bottom: 20px;
+}
+.creative .row{
+    margin: auto 150px;
+}
+.creative .btn{
+    color: var(--blue-color) !important;
+    background: none !important;
+    border: 1px solid var(--blue-color) !important;
+    border-radius: 20px !important;
+    text-decoration: none !important;
+    width: 100px !important;
+    padding: 10px !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+.creative .btn:hover{
+    color: var(--white-color)  !important;
+    background: var(--blue-color) !important;
+    
+}
+/* Testimonials */
+#testimonials{
+    padding: 7% 15%;
+    background: url(/img/display.jpg) no-repeat center center/cover;
+    color: #fff;
+}
+#testimonials h2{
+    font-size: 1.22rem;
+
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+.testimonial-image{
+    width: 10%;
+    border: 2px solid var(--blue-color);
+    border-radius: 100%;
+}
+
+/* Pricing */
+#pricing{
+   background: var(--ano-grey);
+   height: 100vh;
+}
+#pricing .container{
+    margin: auto 120px;
+}
+#pricing .row > .card{
+    background: var(--white-color) !important;
+    margin-right: none !important;
+}
+#pricing .row .card:hover{
+    transform: scale(1.1) !important;
+    transition: transform 0.5s ease-in-out !important;
+}
+#pricing .row  .card h2{
+    font-size: 20px;
+}
+#pricing .row  .card p{
+    font-size: 12px;
+    color: var(--grey-color);
+}
+#pricing .row  .card .card-header{
+    background: var(--white-color) !important;
+}
+#pricing .row  .card .card-header i{
+    margin-top: 20px;
+}
+#pricing .row  .card .card-header h3{
+    padding: 4px;
+    margin-top: 20px;
+    font-size: 8px;
+    color: var(--grey-color);
+}
+#pricing .pricing-column .btn{
+    color: var(--white-color) !important;
+    background: var(--blue-color) !important;
+    border: 1px solid var(--blue-color) !important;
+    border-radius: 20px !important;
+    text-decoration: none !important;
+    width: 150px !important;
+    padding: 10px !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    font-size: 15px;
+}
+#pricing .pricing-column .btn:hover{
+    color: var(--blue-color) !important;
+    background: none !important;
+    border: 1px solid var(--blue-color) !important;
+}
+
+/* Digital Article */
+.digi-article{
+    margin-bottom: 100px;
+}
+.digi-article .row h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.digi-article .row p{
+    font-size: 10px;
+}
+.digi-article .row a{
+    font-size: 10px;
+    margin-top: 20px;
+    color: var(--ano-blue);
+    text-decoration: none;
+}
+
+
+/* Counter and FOOTER */
+/* ani counter */
+.ani-counter{
+    background: var(--light-ash);
+    padding-top: 60px;
+    height: 83.8vh;
+}
+.ani-counter i{
+    color: var(--blue-color);
+    margin-bottom: 20px;
+}
+.ani-counter h6{
+    font-size: 35px;
+}
+.ani-counter span{
+   font-size: 8px;
+   color: var(--inner-text);
+}
+.counter{
+    background: var(--all-black);
+    color: var(--white-color);
+    padding: 100px;
+    font-size: 10px;
+    height: 60vh;
+}
+.counter .container{
+    margin: auto 100px !important;
+}
+.counter .contact, .counter .green{
+    color: hsl(210, 7%, 50%);
+}
+
+.footer{
+    background: var(--all-black);
+    color: var(--white-color);
+    padding-top: 30px;
+    height: 12vh;
+    font-size: 10px;
+    border-top: 1px solid var(--white-color);
+}
